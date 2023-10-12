@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+h2{
+    margin:1%;
+    text-align: center;
+}
+div{
+    background: grey;
+    border: solid;
+    float: left;
+    width: 100%;
+    margin: 4px;
+}
+header{
+    font-weight: bolder;
+    font-size:large;
+    text-align:center;
+}
+#c{
+    width: 100%;
+}
+#header{
+    border: none;
+    width:auto;
+}
+#brand{
+    border-style: none;
+    width: auto;
+}
+#tittle:hover{
+    text-decoration: none;
+}
+#tit{
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+}
+#tit:hover{
+    text-decoration: none;
+    color: black;
+}
+header{
+    color: black;
+}
+.drop{
+    background-color: white;
+    padding: auto;
+    font-size: large;
+}
+#header-nav{
+    background: none;
+    border:none;
+}
+#colapsable-nav{
+    border: none;
+}

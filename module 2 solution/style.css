@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+h2{
+    margin:5%;
+    text-align: center;
+}
+div{
+    background: grey;
+    border: solid;
+    float: left;
+    width: 31.33%;
+    margin: 4px;
+}
+header{
+    text-align:center;
+    border: solid 2px;
+    margin-left: 66.66%;
+}
+#f1{
+    background: pink;
+}
+#f2{
+    background-color: brown;
+}
+#f3{
+    background-color: yellow;
+}
+@media (min-width: 768px) and (max-width: 991px){
+    div{
+        width:48%;
+        margin: 4px;
+    }
+    #r1{
+        width:98%;
+        margin: 4px;
+    }
+}
+@media(max-width: 767px){
+    div{
+        width:100%;
+    }
+}
